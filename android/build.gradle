@@ -12,6 +12,7 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.criticalblue.reactnative"
     compileSdkVersion 26
     buildToolsVersion "26.0.3"
 
